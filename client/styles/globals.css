@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.bg-image {
+  height: 100vh;  
+  background-image: url('/image2.png');
+    background-position: center top -235px; /* Centrer horizontalement, placer en haut verticalement et remonter de 50 pixels */
+    background-size: cover; /* Ajuster la taille de l'image pour couvrir complètement le conteneur */
+    /* Ajoutez d'autres propriétés CSS pour personnaliser l'arrière-plan */
+  }
+
+  .text-turquoise {
+    color: rgb(105, 232, 255);
+  }
+  .text-red {
+    color: rgb(250, 24, 24);
+  }
+  .my-text {
+    font-size: 40px; /* Vous pouvez ajuster la taille en fonction de vos besoins */
+  }
+  .my-text2 {
+    font-size: 35px; /* Vous pouvez ajuster la taille en fonction de vos besoins */
+  }
+  .outlined-text {
+    font-size: 17px;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  }
+  .my-paragraph {
+    font-family: "Great banana script", sans-serif; /* Remplacez "Arial" par le nom de la police souhaitée */
+  }
+  .my-paragraphtwo {
+    font-family: "calibri", sans-serif; /* Remplacez "Arial" par le nom de la police souhaitée */
+  }
+  .my-paragraphthree {
+    font-family: "E-commerce", sans-serif; /* Remplacez "Arial" par le nom de la police souhaitée */
+  }
+  .my-paragraphfour {
+    font-family: "Europe", sans-serif; /* Remplacez "Arial" par le nom de la police souhaitée */
+  }
+
+  .custom-input {
+    padding: 0.5rem;
+    height: 2rem; /* Vous pouvez ajuster la valeur de la hauteur selon vos besoins */
+  }
+  /* Styles pour les champs de saisie */
+  .custom-input2 {
+    color: rgb(255, 255, 255); /* Couleur de l'écriture en blanc */
+    background-color: rgb(37, 16, 11);
+    text-align: left; 
+    line-height: 10px; /* Fond en noir */
+  /* Ajoutez d'autres styles comme la bordure, la marge, etc. selon vos besoins */
+}
+  .custom-textarea {
+    padding: 0.5rem;
+    height: 5rem; /* Vous pouvez ajuster la valeur de la hauteur selon vos besoins */
+  }
+  .custom-button {
+    font-size: 1.20rem; /* Vous pouvez ajuster la taille du texte selon vos besoins */
+    padding: px 16px; /* Vous pouvez ajuster la taille des marges (haut/bas, gauche/droite) selon vos besoins */
+    width: 250px; /* Ajustez la largeur selon vos besoins */
+    position: absolute;
+    top: 79%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .custom-button2 {
+    font-size: 1.20rem; /* Vous pouvez ajuster la taille du texte selon vos besoins */
+    padding: px 46px; /* Vous pouvez ajuster la taille des marges (haut/bas, gauche/droite) selon vos besoins */
+    width: 250px; /* Ajustez la largeur selon vos besoins */
+    position: left;
+    top: 179%;
+    
+    transform: translate(-140%, -100%);
+    
+  }
+  .transparent-input {
+    opacity: 0.8; /* Ajustez la valeur pour obtenir l'effet de transparence souhaité (valeur entre 0 et 1) */
+  }
